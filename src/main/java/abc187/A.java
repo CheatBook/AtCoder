@@ -1,0 +1,15 @@
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class abc187_A {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String[] strA = scanner.next().split("");
+        String[] strB = scanner.next().split("");
+
+        int a = Arrays.stream(strA).mapToInt(Integer::parseInt).sum();
+        int b = Arrays.stream(strB).mapToInt(Integer::parseInt).sum();
+
+        System.out.println(Math.max(a, b));
+    }
+}
