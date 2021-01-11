@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class abc187_A {
+public class A {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String[] strA = scanner.next().split("");

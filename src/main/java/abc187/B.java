@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 import static java.lang.Math.abs;
 
-public class abc187_B {
+public class B {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int N = scanner.nextInt();
