@@ -1,3 +1,5 @@
+package abc187;
+
 import java.util.*;
 
 public class C_OK_2 {

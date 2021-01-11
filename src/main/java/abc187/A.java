@@ -1,3 +1,5 @@
+package abc187;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
